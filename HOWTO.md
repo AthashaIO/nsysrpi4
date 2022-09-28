@@ -14,4 +14,7 @@ make
 exit
 #create precompiled artifact
 mix nerves.artifact
+#pushed as gpm branch
+#manually moving the tar.gz file into ~/.nerves/dl
+#prevents trying to fetch from github releases
 ```
