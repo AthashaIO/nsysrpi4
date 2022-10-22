@@ -17,6 +17,10 @@ make linux-menuconfig
 CONFIG_INPUT_MOUSEDEV
 make linux-update-defconfig
 
+make menuconfig
+evtest
+make savedefconfig
+
 make
 exit
 #create precompiled artifact
